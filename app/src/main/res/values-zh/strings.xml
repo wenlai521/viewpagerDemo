@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="pretext">已经过物流地址，由快递员派dfkasdfljasldf送，派送电话：</string>
+    <string name="endtext">你好1234567890</string>
+</resources>

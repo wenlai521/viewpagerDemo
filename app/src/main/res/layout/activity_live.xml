@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="375dp">
+
+        <!--<com.tencent.rtmp.ui.TXCloudVideoView-->
+            <!--android:id="@+id/video_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="375dp"-->
+            <!--android:background="#88333333" />-->
+
+        <ImageView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_alignParentBottom="true"
+            android:background="#b000">
+
+            <ImageView
+                android:id="@+id/iv_play_pause"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="·"
+                    android:textColor="#F04848"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:text=" live"
+                    android:textColor="#F04848"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_live_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="01:55"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_rotate"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_course_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="96dp"-->
+        <!--android:layout_below="@id/rl_video_view"-->
+        <!--android:layout_marginLeft="31dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="第九模块"-->
+        <!--android:textSize="14sp" />-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_below="@id/tv_course_name" />-->
+
+    <!--<com.flyco.tablayout.SlidingTabLayout-->
+        <!--android:id="@+id/tabLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:layout_below="@id/tv_course_name"-->
+        <!--android:elevation="0dp"-->
+        <!--android:translationZ="3dp"-->
+        <!--app:tabGravity="fill"-->
+        <!--app:tl_indicator_width_equal_title="true"-->
+        <!--app:tl_tab_space_equal="true"-->
+        <!--app:tl_textBold="BOTH"-->
+        <!--app:tl_textsize="16dp"-->
+        <!--app:tl_underline_height="3dp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="104dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="31dp"
+            android:layout_weight="1"
+            android:hint="据说发言的同学都比较聪明"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="15dp"
+            android:paddingRight="35dp"
+            android:paddingTop="10dp"
+            android:text="提问"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
