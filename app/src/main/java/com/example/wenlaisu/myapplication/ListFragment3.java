@@ -88,6 +88,7 @@ public class ListFragment3 extends Fragment {
                 LinearLayoutManager.VERTICAL);
         mRecyclerView.addItemDecoration(itemDecoration);
         mRecyclerView.setLayoutManager(layoutManager);
+        mRecyclerView.setFocusable(false);
 
         for (int i = 0; i < 25; i++) {
             String s = String.format("我是第%d个" + title, i);
