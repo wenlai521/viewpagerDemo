@@ -1,4 +1,6 @@
 # viewpagerDemo
+修改了recyclerview的页面 刚开始进入的话  会自动把指示器顶上去的问题
+
 这几天 朋友问我了个问题  有个特别的需求  页面如下
 
 ![gif图片](https://github.com/wenlai521/viewpagerDemo/blob/master/123.gif)
